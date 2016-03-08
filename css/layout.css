@@ -1,0 +1,53 @@
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+header {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #80e5ff;
+}
+.profile_image img {
+  width: 300px;
+  border-radius: 300px;
+}
+header h1 {
+  color: white;
+}
+#links img {
+  margin: 2% 3%;
+}
+
+#main {
+  margin-top: 3%;
+}
+.project {
+  clear: both;
+  margin-top: 4%;
+  background-color: #fff0ed;
+  border-radius: 10px;
+  min-height: 200px;
+}
+.sample_image img {
+  width: 300px;
+  margin: 5% 1%;
+}
+#main a {
+  color: #dc3f23;
+  font-weight: bold;
+}
+#main h3 {
+  text-align: center;
+}
+
+#main h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.sample_image, .project_info {
+  display: inline-block;
+}
