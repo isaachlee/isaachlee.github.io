@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Welcome!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
@@ -12,69 +12,58 @@
 <body>
   <header>
     <div class="container">
-      <div class="profile_image four columns">
+      <div class="profile_image three columns">
         <img src="images/circlepic.png" />
       </div>
-      <div class="profile text twelve columns">
+      <div class="profile text eight columns">
         <h1>Isaac Lee</h1>
-        <h4>Web Developer & Dev Bootcamp Graduate.  I work well in teams and pride myself in my ability to communicate effectively and efficiently. I am eager to learn about new technologies and </h4>
+        <h4>Recent Dev Bootcamp Graduate and Aspiring Web Developer.  I work well in teams and pride myself in my ability to communicate effectively and efficiently. I am eager to learn about new technologies and analyze their stregnths and weaknesses.</h4>
         <div id="links">
-          <a href="https://www.linkedin.com/in/messageisaaclee"><img src="images/icon_linkedin.png" alt="linkedIn" /></a>
-          <a href="https://github.com/isaachlee"><img src="images/icon_github.png" alt="github" /></a>
-          <a href="mailto:contact@isaachlee.com"><img src="images/icon_email.png" alt="email" /></a>
-          <a href="files/resume.pdf"><img src="images/icon_resume.png" alt="resume" /></a>
+          <a href="https://www.linkedin.com/in/messageisaaclee"><img src="images/icons/linkedin.png" alt="linkedIn" /></a>
+          <a href="https://github.com/isaachlee"><img src="images/icons/github.png" alt="github" /></a>
+          <a href="mailto:contact@isaachlee.com"><img src="images/icons/email.png" alt="email" /></a>
+          <a href="files/resume.pdf"><img src="images/icons/resume.png" alt="resume" /></a>
         </div>
       </div>
     </div>
   </header>
-
-  <div id="main" class="container">
-    <section id="projects">
-        <h3>Portfolio.</h3>
-        <article class="project">
-          <div class="sample_image one-third column">
-            <img src="images/portfolio/4.png">
-          </div>
-          <div class="project_info two-thirds column">
-            <h4>Amber</h4>
-            <span class="project_link"><a href="http://amber-brew.herokuapp.com/">Live Link</a> - <a href="https://github.com/fence-lizards-2014/amber">Github</a></span>
-            <p>A Rails and Javascript heavy app that allows users to choose food flavor profiles and makes beer pairing suggestions</p>
-          </div>
-        </article>
-        <article class="project">
-          <div class="sample_image one-third column">
-            <img src="images/portfolio/2.png">
-          </div>
-          <div class="project_info two-thirds column">
-            <h4>Jian</h4>
-            <span class="project_link"><a href="http://jian.herokuapp.com/">Live Link</a> - <a href="https://github.com/azywong/jian">Github</a></span>
-            <p>A Sinatra web app that allows users to browse and track instagram photos and tags online.</p>
-          </div>
-        </article>
-        <article class="project">
-          <div class="sample_image one-third column">
-            <img src="images/portfolio/3.png">
-          </div>
-          <div class="project_info two-thirds column">
-            <h4>LetterStream</h4>
-            <span class="project_link"><a href="http://letterstream.herokuapp.com/">Live Link</a> - <a href="https://github.com/azywong/LetterStream">Github</a></span>
-            <p>A Sinatra web app that allows users to input stories and practice reading at a constant speed.</p>
-            <p>Project from DBC Hackathon July 19, 2014</p>
-          </div>
-        </article>
-        <article class="project">
-          <div class="sample_image one-third column">
-            <img src="images/portfolio/1.png">
-          </div>
-          <div class="project_info two-thirds column">
-            <h4>Nebulr</h4>
-            <span class="project_link"><a href="http://nebulr.herokuapp.com/">Live Link</a> - <a href="https://github.com/azywong/nebulr">Github</a></span>
-            <p>A Rails app that allows users to ask and answer questions.  Optimized for mobile browsing.</p>
-            <p>From Startup Weekend Space 2014</p>
-          </div>
-        </article>
-
-      </section>
+  <div class = "body">
+    <div class = "container">
+      <h3 class = "title">Portfolio</h3>
+    </div>
+    <div class="container portfolio">
+      <div class="project">
+        <div class="sample_image one-third column">
+          <img src="images/portfolio/4.png">
+        </div>
+        <div class="project_info two-thirds column">
+          <h4>Bucketlist</h4>
+          <a href="https://github.com/isaachlee/bucket-list">Github</a>
+          <p>An application built in Meteor with React. Users can create bucketlists and post pictures of them completing items. In addition, users can search for places in their vicinity related to their bucket lists using the Google Maps API. </p>
+        </div>
+      </div>
+      <div class="project">
+        <div class="sample_image one-third column">
+          <img src="images/screenshot/.png">
+        </div>
+        <div class="project_info two-thirds column">
+          <h4>Decidr</h4>
+          <a href="https://github.com/isaachlee/decidr">Github</a>
+          <p>A python based application using flask to use Yelp's API to find local businesses in the SF area.</p>
+          <p>Created for DBC's Civic Hackathon in January 2016</p>
+        </div>
+      </div>
+      <div class="project">
+        <div class="sample_image one-third column">
+          <img src="images/screenshot/omg.png">
+        </div>
+        <div class="project_info two-thirds column">
+          <h4>omg</h4>
+          <a href="http://emgapp.herokuapp.com/">Live Link</a> - <a href="https://github.com/isaachlee/omg">Github</a>
+          <p>A web application built in Sinatra that takes a string of letters and translates them either into leetspeak or ermahgerd speak. Also allows for API calls to translate the strings, and can utilize the Twillio API to text numbers.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
